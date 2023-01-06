@@ -1,0 +1,102 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fbecda;
+  color: #411b33;
+  background-image: url(/img/photo-1506318137071-a8e063b4bec0.jfif);
+  color: yellow;
+}
+
+nav {
+  display: block;
+}
+
+.site-nav {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 80px;
+}
+
+.portfoliolink {
+  color: white;
+}
+
+video {
+  display: block;
+  margin: auto;
+}
+
+.site-nav ul {
+  margin: 0;
+  list-style-type: none;
+  text-align: right;
+}
+
+.site-nav li {
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  border-left: 1px solid yellow;
+  text-align: center;
+}
+
+.site-nav a {
+  color: yellow;
+  text-decoration: none; /* geen onderlijning bij links */
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: yellow;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.welkomintro {
+  text-align: center;
+}
+
+.linkinwit {
+  color: white;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 26px;
+  color: white;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 20px;
+  color: yellow;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 18px;
+  color: yellow;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+  color: yellow;
+  font-weight: bold;
+
+  width: 960px;
+}
+
+figure {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+footer {
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  padding: 3px;
+}
