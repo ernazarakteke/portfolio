@@ -4,6 +4,13 @@ html {
   color: #411b33;
   background-image: url(/img/photo-1506318137071-a8e063b4bec0.jfif);
   color: yellow;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 nav {
